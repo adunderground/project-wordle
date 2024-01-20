@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function GuessInput({ guesses, setGuesses, isDisabled=false }) {
+function GuessInput({ guesses, setGuesses, isDisabled }) {
   const [userGuess, setUserGuess] = useState('');
 
   return (
